@@ -1,0 +1,95 @@
+.Header {
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.Heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2f3841;
+}
+
+.help {
+  padding: auto;
+  font-size: 20px;
+  color: white;
+  background-color: #1687d9;
+}
+
+.prod-name {
+  background-color: #909090;
+}
+
+#remove {
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #e44c4c;
+  display: inline-block;
+}
+.ordered-img {
+  height: 100px;
+}
+
+body {
+  padding: 0px 30px 30px 20px;
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.modal-footer {
+  padding-top: 0rem;
+}
+
+.first-row {
+  background-color: #1687d9;
+  font-size: smaller;
+  font-weight: bold;
+}
+.table {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: small;
+}
+.last-row {
+  background-color: #0f3652;
+  color: white;
+}
+.counter-but {
+  border-radius: 5px;
+  background-color: #1687d9;
+  border-color: #0f3652;
+  display: inline-block;
+  vertical-align: middle;
+}
+.counter-display {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.desc {
+  font-weight: bold;
+  font-size: small;
+  color: grey;
+}
+
+.new-button {
+  background-color: #1687d9;
+  border-radius: 5px;
+  color: white;
+  width: 40px;
+}
