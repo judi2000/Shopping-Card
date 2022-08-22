@@ -1,6 +1,7 @@
 Dear sir
 My assignment is running on localhose:3000 beacause I used Node.js.
-
+but because of the size of the folder I can not upload it here so please use npm init in case you sir want to run my app. 
 I have created a database for the products using MongoDB. My problem is that I can not link the search bar with the database.
 
 The assignment is not completed %100 but Im uploding it this way due to the deadline, I will keep trying to get it better.
+ thank you.
