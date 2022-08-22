@@ -50,39 +50,49 @@
                   </div>
                 </div>
               </div>
-        
+
+              <div class="search-wrapper">
+                <label for="search">Search by Barcode</label>
+                <input type="search" id="search" data-search>
+              </div>
+
               <table class="table">
                 <thead>
                   <tr class="first-row">
-                    <th>Products</th>
-                    <th>Quantity</th>
+                    <th>Product name</th>
+                    <th>Qty</th>
                     <th>Price</th>
-                    <th>Sum</th>
+                    <th align="center"><span id="amount" class="amount">Amount</span></th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr class="sum">
-                    <td>Mozarella</td>
-                    <td>2</td>
-                    <td>2.45</td>
-                    <td></td>
-                  </tr>
-                  <tr class="sum">
-                    <td>Choclate</td>
-                    <td>3</td>
-                    <td>24.5</td>
-                    <td></td>
-                  </tr>
-                  <tr class="sum">
-                    <td>Strawberry</td>
-                    <td>4</td>
-                    <td>37</td>
-                    <td></td>
-                  </tr>
-                  <tr class="last-row">
-                    <td>Total to pay:</td>
+                <tfoot>
+                  <tr>
                     <td colspan="2"></td>
-                    <td class="total"></td>
+                    <td align="right"><span id="total" class="total">TOTAL</span></td>
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td>Product 1</td>
+                    <td>
+                      <select value="" class="qty" name="qty">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>
+                    </td>
+                    <td><input type="text" value="11.60" class="price" /></td>
+                    <td align="center"><span id="amount" class="amount">0</span> eur</td>
+                  </tr>
+                  <tr>
+                    <td>Product 2</td>
+                    <td>
+                      <select value="" class="qty" name="qty">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>
+                    </td>
+                    <td><input type="text" value="15.26" class="price" /></td>
+                    <td align="center"><span id="amount" class="amount">0</span> eur</td>
                   </tr>
                 </tbody>
               </table>
